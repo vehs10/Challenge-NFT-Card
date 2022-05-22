@@ -3,6 +3,10 @@
         color: white;
         font-family: 'Outfit', sans-serif;
     }
+
+    .text-center{
+        text-align: center;
+    }
     
     @media (min-width:601px) {
         .card-container {
