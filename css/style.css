@@ -1,0 +1,91 @@
+    body {
+        background-color: hsl(217, 54%, 11%);
+        color: white;
+        font-family: 'Outfit', sans-serif;
+    }
+    
+    @media (min-width:601px) {
+        .card-container {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-top: 30px;
+            height: 620px;
+        }
+    }
+    
+    .card-container img {
+        max-width: 350px;
+        border-radius: 10px;
+    }
+    
+    @media (max-width: 600px) {
+        .card-container img {
+            max-width: 100%;
+        }
+    }
+    
+    .card-items {
+        background-color: hsl(216, 50%, 16%);
+        padding: 20px 10px 20px 10px;
+        border-radius: 20px;
+        margin: 10px;
+        box-shadow: 20px 30px 20px rgba(0, 0, 0, 0.15);
+    }
+    
+    .items-info {
+        text-align: left;
+        font-size: 15px;
+        margin: 0px 10px;
+    }
+    
+    .items-info h1 {
+        font-size: 25px;
+    }
+    
+    .items-info h1:hover {
+        color: aqua;
+        cursor: pointer;
+    }
+    
+    .items-info p {
+        font-weight: 300;
+        color: rgb(187, 184, 184);
+    }
+    
+    .items-price {
+        display: flex;
+        justify-content: space-between;
+        color: rgb(187, 184, 184);
+        margin: 10px 20px;
+    }
+    
+    .Eth-icon {
+        color: aqua;
+    }
+    
+    .Eth-icon:hover {
+        transform: scale(1.1);
+        transition: .3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    hr {
+        color: rgb(187, 184, 184);
+        font-weight: 100;
+        width: 95%;
+    }
+    
+    h4:hover {
+        color: aqua;
+        cursor: pointer;
+    }
+    
+    span {
+        color: rgb(34, 139, 139);
+        margin-left: 5px;
+    }
+    
+    span:hover {
+        color: aqua;
+    }
